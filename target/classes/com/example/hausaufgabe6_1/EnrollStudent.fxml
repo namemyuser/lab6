@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hausaufgabe6_1.HelloController">
+   <children>
+      <TextField fx:id="tfGetCourseID" layoutX="257.0" layoutY="188.0" prefHeight="25.0" prefWidth="86.0" />
+      <Text layoutX="143.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Desired Course ID:" />
+      <Button layoutX="165.0" layoutY="277.0" mnemonicParsing="false" onAction="#enrollButton" prefHeight="25.0" prefWidth="76.0" text="Enroll" />
+      <Label fx:id="enrollStatus" layoutX="193.0" layoutY="94.0" prefHeight="17.0" prefWidth="214.0" />
+      <Button layoutX="343.0" layoutY="277.0" mnemonicParsing="false" onAction="#refreshData" text="Refresh data" />
+   </children>
+</Pane>

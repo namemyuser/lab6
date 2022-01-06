@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hausaufgabe6_1.HelloController">
+   <children>
+      
+      <Button layoutX="248.0" layoutY="74.0" mnemonicParsing="false" onAction="#enrollToCourseButton" text="Enroll for Course" />
+      <Button layoutX="263.0" layoutY="188.0" mnemonicParsing="false" onAction="#seeCreditsButton" text="See credits" />
+      <Label fx:id="printCreditsLabel" layoutX="286.0" layoutY="288.0" text=" " />
+   </children>
+</Pane>
